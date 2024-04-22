@@ -1,0 +1,179 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "TIMETABLE",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446"
+                    },
+                    {
+                        "type": "text",
+                        "text": "今日の時間割（火曜日）",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "時限",
+                                "align": "center",
+                                "color": "#1DB446",
+                                "size": "lg",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "text",
+                                "text": "教科",
+                                "weight": "bold",
+                                "align": "center",
+                                "color": "#1DB446",
+                                "size": "lg"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "period",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "subject",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            }
+                        ],
+                        "paddingTop": "5%"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none",
+                "borderWidth": "none",
+                "paddingTop": "0%",
+                "paddingBottom": "0%",
+                "justifyContent": "flex-start"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": []
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "text": "TASK"
+                    },
+                    {
+                        "type": "text",
+                        "text": "課題",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ]
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "contents": [
+                                    {
+                                        "type": "icon",
+                                        "url": "https://lh5.googleusercontent.com/fP5kDQ2lcGse3poDqs30P5HqsYnTgHhjsnjZeZNe8RSWTIySVPamLrc9h3DQlnC6cnGebKtyVC3_hLNZdOei=w1027-h890",
+                                        "size": "md"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "task1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                                        "margin": "sm",
+                                        "wrap": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "separator"
+                            },
+                            {
+                                "type": "text",
+                                "text": "12/25~1/30",
+                                "color": "#aaaaaa",
+                                "align": "end",
+                                "size": "md"
+                            }
+                        ]
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none",
+                "borderWidth": "none",
+                "paddingTop": "0%",
+                "paddingBottom": "0%"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "過去の課題一覧を見る",
+                            "uri": "https://docs.google.com/spreadsheets/..."
+                        },
+                        "style": "secondary",
+                        "height": "md"
+                    }
+                ],
+                "paddingStart": "10%",
+                "paddingEnd": "10%"
+            }
+        }
+    ]
+}

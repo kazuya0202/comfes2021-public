@@ -1,0 +1,37 @@
+
+Todo:
+  ☐ Reply API は有料には含まれないから，reply のを更新する
+
+  平日・休日のを管理（何も設定してない場合は平日なら送る，祝日・休日なら送らない）
+    課題だけのメッセージ送る？
+
+  ☐ <memo>
+    ☐ LINEで送りたい画像はGoogleDriveでもいいけど，PC版だと見れないとかいろいろあるから，gistつかってやる
+      ☐ https://gist.github.com/kazuya0202/6d6d0d810ae91b2363ff74783213a944
+      ☐ ＋ https://git.io で省略
+
+      ☐ timetable
+        ☐ url: "https://git.io/JtccZ",
+        ☐ // "https://gist.github.com/kazuya0202/6d6d0d810ae91b2363ff74783213a944/raw/81ae69b3ece3ff9b97f0d75a5deed5a53085ad66/iconmonstr-check-mark-1-240.png",
+        ☐ // "https://gitlab.com/ichiya/deploy-image/-/raw/master/iconmonstr-check-mark-1-240.png",
+      ☐ check-icon
+        ☐ "https://git.io/JtccI",
+        ☐ // "https://gist.github.com/kazuya0202/6d6d0d810ae91b2363ff74783213a944/raw/81ae69b3ece3ff9b97f0d75a5deed5a53085ad66/R2-timetable-exam4.jpg",
+        ☐ // "https://drive.google.com/uc?id=13N-duOMHyc6XkEBVooq6zQSnVYZeafLL",
+
+  ☐ RICH MENU
+    ☐ 「登録中の課題を取得」ボタン （text: 課題リスト）
+
+  ☐ 時間割の更新
+    ☐ 別の時間割シートを用意
+      ☐ 時限単位での変更は便利
+
+      ☐ x 一週間ごとにリセット（日曜）
+      ☐ o 各曜日が終わった時に来週用の列に更新
+        ☐ 火曜日になったら，月曜日のをデフォルトに更新
+
+        ☐ 更新前: 1/N   | 1/N+1 | 1/N+2 | 1/N+3 ...
+        ☐ 更新後: 1/N+4 | 1/N+1 | 1/N+2 | 1/N+3 ...
+
+    ☐ Google Calendarの別カレンダーで変更
+      ☐ 曜日が変わるとき便利？（○曜日課）

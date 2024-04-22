@@ -1,0 +1,149 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "SCHEDULE",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446"
+                    },
+                    {
+                        "type": "text",
+                        "text": "スケジュール",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "horizontal",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "text": "10:00～",
+                                        "wrap": true,
+                                        "color": "#000000"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "hello, world",
+                                        "wrap": true,
+                                        "color": "#000000"
+                                    }
+                                ],
+                                "paddingStart": "5%",
+                                "paddingEnd": "5%"
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "xs"
+                            }
+                        ]
+                    }
+                ],
+                "paddingTop": "0%",
+                "spacing": "md"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "uri",
+                                    "label": "イベントを登録する",
+                                    "uri": "https://docs.google.com/forms/..."
+                                },
+                                "style": "secondary",
+                                "height": "sm"
+                            }
+                        ],
+                        "spacing": "none",
+                        "margin": "none",
+                        "paddingStart": "5%",
+                        "paddingEnd": "5%"
+                    }
+                ],
+                "spacing": "lg"
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "INFORMATION",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446"
+                    },
+                    {
+                        "type": "text",
+                        "text": "インフォメーション",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "color": "#000000",
+                        "text": "　"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "uri",
+                                    "label": "健康観察を入力する",
+                                    "uri": "https://..."
+                                },
+                                "style": "secondary",
+                                "height": "sm"
+                            }
+                        ]
+                    }
+                ],
+                "paddingTop": "0%",
+                "spacing": "lg"
+            }
+        }
+    ]
+}

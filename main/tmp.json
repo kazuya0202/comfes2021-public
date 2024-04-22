@@ -1,0 +1,232 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "text": "TASK"
+                    },
+                    {
+                        "type": "text",
+                        "text": "課題リスト",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ]
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "contents": [
+                                    {
+                                        "type": "icon",
+                                        "url": "https://gitlab.com/ichiya/deploy-image/-/raw/master/iconmonstr-check-mark-1-240.png",
+                                        "size": "md"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "【制御】演習No.4 安定判別（WebClass）",
+                                        "margin": "sm",
+                                        "wrap": true
+                                    }
+                                ]
+                            },
+                            { "type": "separator" },
+                            {
+                                "type": "text",
+                                "text": "～ 2021-01-12 17:00",
+                                "color": "#aaaaaa",
+                                "align": "end",
+                                "size": "md"
+                            }
+                        ]
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none",
+                "borderWidth": "none",
+                "paddingTop": "0%",
+                "paddingBottom": "0%"
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "過去の課題一覧を見る",
+                            "uri": "https://docs.google.com/spreadsheets/..."
+                        },
+                        "style": "secondary",
+                        "height": "sm"
+                    }
+                ],
+                "paddingStart": "10%",
+                "paddingEnd": "10%",
+                "spacing": "sm"
+            }
+        },
+        {
+            "type": "bubble",
+            "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "TIMETABLE",
+                        "size": "sm",
+                        "weight": "bold",
+                        "color": "#1DB446"
+                    },
+                    {
+                        "type": "text",
+                        "text": "1月12日 (火) の時間割",
+                        "weight": "bold",
+                        "size": "xl",
+                        "align": "start"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "時限",
+                                "align": "center",
+                                "color": "#1DB446",
+                                "size": "lg",
+                                "weight": "bold"
+                            },
+                            {
+                                "type": "text",
+                                "text": "教科",
+                                "weight": "bold",
+                                "align": "center",
+                                "color": "#1DB446",
+                                "size": "lg"
+                            }
+                        ]
+                    },
+                    { "type": "separator", "margin": "md" },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "1／2",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "創演(13)",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            }
+                        ],
+                        "paddingTop": "5%"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "3／4",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "第2外国語(28)",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            }
+                        ],
+                        "paddingTop": "5%"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "5／6",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "制御(28)",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            }
+                        ],
+                        "paddingTop": "5%"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "7／8",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            },
+                            {
+                                "type": "text",
+                                "text": "情理(25)",
+                                "align": "center",
+                                "size": "md",
+                                "wrap": true
+                            }
+                        ],
+                        "paddingTop": "5%"
+                    }
+                ],
+                "spacing": "none",
+                "margin": "none",
+                "borderWidth": "none",
+                "paddingTop": "0%",
+                "justifyContent": "flex-start"
+            }
+        }
+    ]
+}

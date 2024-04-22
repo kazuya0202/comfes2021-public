@@ -1,0 +1,87 @@
+{
+    "type": "bubble",
+    "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "TIMETABLE",
+                "size": "sm",
+                "weight": "bold",
+                "color": "#1DB446"
+            },
+            {
+                "type": "text",
+                "text": "今日の時間割（火曜日）",
+                "weight": "bold",
+                "size": "xl",
+                "align": "start"
+            }
+        ]
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "時限",
+                        "align": "center",
+                        "color": "#aaaaaa",
+                        "size": "lg",
+                        "weight": "bold"
+                    },
+                    {
+                        "type": "text",
+                        "text": "教科",
+                        "weight": "bold",
+                        "align": "center",
+                        "color": "#aaaaaa",
+                        "size": "lg"
+                    }
+                ]
+            },
+            {
+                "type": "separator"
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "period",
+                        "align": "center",
+                        "size": "md"
+                    },
+                    {
+                        "type": "text",
+                        "text": "subject",
+                        "align": "center",
+                        "size": "md"
+                    }
+                ],
+                "paddingTop": "3%"
+            },
+            {
+                "type": "separator",
+                "margin": "lg"
+            },
+            {
+                "type": "text",
+                "text": "2020",
+                "color": "#aaaaaa",
+                "align": "end"
+            }
+        ],
+        "spacing": "none",
+        "margin": "none",
+        "borderWidth": "none",
+        "paddingTop": "0%"
+    }
+}
