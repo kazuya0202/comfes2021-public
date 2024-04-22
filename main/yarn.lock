@@ -33,6 +33,11 @@
     typescript "^3.6.2"
     watch "^1.0.2"
 
+"@leichtgewicht/ip-codec@^2.0.1":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.5.tgz#4fc56c15c580b9adb7dc3c333a134e540b44bfb1"
+  integrity sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -269,11 +274,11 @@ defer-to-connect@^1.0.1:
   integrity sha512-0ISdNousHvZT2EiFlZeZAHBUvSxmKswVCEf8hW7KWgG4a8MVEu/3Vb6uWYozkjylyCxe0JBIiRB1jV45S70WVQ==
 
 dns-packet@^5.1.2:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.2.1.tgz#26cec0be92252a1b97ed106482921192a7e08f72"
-  integrity sha512-JHj2yJeKOqlxzeuYpN1d56GfhzivAxavNwHj9co3qptECel27B1rLY5PifJAvubsInX5pGLDjAHuCfCUc2Zv/w==
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-5.6.1.tgz#ae888ad425a9d1478a0674256ab866de1012cf2f"
+  integrity sha512-l4gcSouhcgIKRvyy99RNVOgxXiicE+2jZoNmaNmZ6JXiGajBOJAesk1OBlJuM5k2c+eudGdLxDqXuPCKIj6kpw==
   dependencies:
-    ip "^1.1.5"
+    "@leichtgewicht/ip-codec" "^2.0.1"
 
 dns-socket@^4.2.1:
   version "4.2.1"
@@ -566,11 +571,6 @@ ip-regex@^4.0.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-4.2.0.tgz#a03f5eb661d9a154e3973a03de8b23dd0ad6892e"
   integrity sha512-n5cDDeTWWRwK1EBoWwRti+8nP4NbytBBY0pldmnIkq6Z55KNFmWofh4rl9dPZpj+U/nVq7gweR3ylrvMt4YZ5A==
-
-ip@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
-  integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
 
 is-fullwidth-code-point@^3.0.0:
   version "3.0.0"
